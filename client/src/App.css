@@ -1,0 +1,19 @@
+/* For WebKit browsers (Chrome, Safari, newer versions of Opera) */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+    background-color: rgba(0, 0, 0, 0); /* Semi-transparent background color */
+}
+
+/* Optional: scrollbar thumb (handle) */
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0,0); /* Semi-transparent thumb color */
+    border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+/* Optional: scrollbar track (area where the thumb moves) */
+::-webkit-scrollbar-track {
+    background: transparent; /* Transparent track */
+}
