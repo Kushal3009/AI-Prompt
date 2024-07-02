@@ -4,7 +4,7 @@ const app = express();
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import cors from "cors";
 // Access your API key as an environment variable (see "Set up your API key" above)
-const genAI = new GoogleGenerativeAI("AIzaSyArCUThZWgz0T1qASHvj-SG8DjnfNYlTyQ");
+const genAI = new GoogleGenerativeAI("Your_GoogleAI_API");
 
 // Middleware to parse JSON request bodies
 app.use(express.json());
